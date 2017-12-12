@@ -18,4 +18,4 @@ class OcrBean:
         return "content,file_id,key_word,type,search_url,create_date"
 
     def __str__(self) -> str:
-        return "'"+self.content + "','" + self.file_id + "','" + self.key_word + "','" + self.type + "','" + self.search_url + "'," + str(self.create_date)
+        return "'"+self.content + "'," + str(self.file_id) + ",'" + self.key_word + "','" + self.type + "','" + self.search_url + "','" + str(self.create_date)+"'"
